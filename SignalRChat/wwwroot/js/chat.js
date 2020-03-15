@@ -19,7 +19,12 @@ connection.start().then(function () {
     return console.error(err.toString());
 });
 
-document.getElementById("sendButton").addEventListener("click", function (event) {
+function scrollBottom() {
+    var messagesBox = document.getElementById("messagesList");
+    messagesBox.scrollTop = messagesBox.scrollHeight;
+}
+
+function send(event) {
     var user = document.getElementById("userInput").value;
     var message = document.getElementById("messageInput").value;
     connection.invoke("SendMessage", user, message).catch(function (err) {
@@ -28,17 +33,15 @@ document.getElementById("sendButton").addEventListener("click", function (event)
     event.preventDefault();
 
     document.getElementById("messageInput").value = "";
+    scrollBottom();
+}
+
+document.getElementById("sendButton").addEventListener("click", function (event) {
+    send(event);
 });
 
 window.addEventListener("keydown", function (event) {
     if (event.keyCode === 13) {
-        var user = document.getElementById("userInput").value;
-        var message = document.getElementById("messageInput").value;
-        connection.invoke("SendMessage", user, message).catch(function (err) {
-            return console.error(err.toString());
-        });
-
-        document.getElementById("messageInput").value = "";
+        send(event);
     }
-
-}, false);
+});
