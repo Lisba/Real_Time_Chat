@@ -1,6 +1,12 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 a.navbar-brand {
   white-space: normal;
   text-align: center;
@@ -75,4 +81,15 @@ html body div main div div ul {
     overflow: auto;
     height: 50vh;
     width: 100%;
+    border: groove;
+    border-color: antiquewhite;
+    border-radius: 2em;
+    padding: 2% 2% 3% 4%;
+}
+
+body div main div div div #sendButton {
+    color: white;
+    background-color: green;
+    padding: 1%;
+    border-radius: 1em;
 }

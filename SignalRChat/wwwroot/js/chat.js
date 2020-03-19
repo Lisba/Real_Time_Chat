@@ -5,6 +5,11 @@ var connection = new signalR.HubConnectionBuilder().withUrl("/chatHub").build();
 //Disable send button until connection is established
 document.getElementById("sendButton").disabled = true;
 
+function scrollBottom() {
+    var messagesBox = document.getElementById("messagesList");
+    messagesBox.scrollTop = messagesBox.scrollHeight;
+}
+
 connection.on("ReceiveMessage", function (user, message) {
     var msg = message.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
     var encodedMsg = user + " says: " + msg;
@@ -19,10 +24,6 @@ connection.start().then(function () {
     return console.error(err.toString());
 });
 
-function scrollBottom() {
-    var messagesBox = document.getElementById("messagesList");
-    messagesBox.scrollTop = messagesBox.scrollHeight;
-}
 
 function send(event) {
     var user = document.getElementById("userInput").value;

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - RealTimeChatSignalR</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/site.css?v=<%=DateTime.Now%>" /> <!--Eliminar esto en entorno de produccion: ?v=<%=DateTime.Now%>-->
     <link rel="shortcut icon" href="~/favicon.ico" />
 </head>
 <body>
