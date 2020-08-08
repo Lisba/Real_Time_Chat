@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\usuario\\Documents\\Sistemas-UTN\\2do cuatrimestre\\practicas\\SignalRChat\\SignalRChat\\SignalRChat.csproj",
+      "projectUniqueName": "C:\\Users\\usuario\\Documents\\personals_projects\\SignalRChat\\SignalRChat\\SignalRChat.csproj",
       "projectName": "SignalRChat",
-      "projectPath": "C:\\Users\\usuario\\Documents\\Sistemas-UTN\\2do cuatrimestre\\practicas\\SignalRChat\\SignalRChat\\SignalRChat.csproj",
+      "projectPath": "C:\\Users\\usuario\\Documents\\personals_projects\\SignalRChat\\SignalRChat\\SignalRChat.csproj",
       "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\usuario\\Documents\\Sistemas-UTN\\2do cuatrimestre\\practicas\\SignalRChat\\SignalRChat\\obj\\",
+      "outputPath": "C:\\Users\\usuario\\Documents\\personals_projects\\SignalRChat\\SignalRChat\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -66,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
