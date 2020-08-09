@@ -70,3 +70,4 @@ C:\Users\usuario\Documents\personals_projects\SignalRChat\SignalRChat\obj\Debug\
 C:\Users\usuario\Documents\personals_projects\SignalRChat\SignalRChat\obj\Debug\netcoreapp3.1\SignalRChat.pdb
 C:\Users\usuario\Documents\personals_projects\SignalRChat\SignalRChat\obj\Debug\netcoreapp3.1\SignalRChat.genruntimeconfig.cache
 C:\Users\usuario\Documents\personals_projects\SignalRChat\SignalRChat\obj\Debug\netcoreapp3.1\SignalRChat.csproj.CopyComplete
+C:\Users\usuario\Documents\personals_projects\SignalRChat\SignalRChat\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\SignalRChatLisbaldy - Web Deploy\profile.arm.json
