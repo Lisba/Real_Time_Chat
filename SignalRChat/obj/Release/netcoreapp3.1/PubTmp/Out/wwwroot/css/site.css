@@ -227,6 +227,18 @@ textarea.messageInput {
     border-radius: .3rem;
     padding: 0.4%;
     margin: 7px 0;
+    display: flex;
+    overflow: auto;
+}
+
+#messagesList > li > span {
+    font-size: 70%;
+    align-self: flex-end;
+    margin-right: 1%;
+}
+
+#messagesList > li > div > p {
+    margin: 0;
 }
 
 @media (min-width: 768px) {

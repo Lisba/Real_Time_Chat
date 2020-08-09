@@ -23,15 +23,37 @@ function scrollToBottom() {
 
 function currentTime() {
     let time = new Date();
-    return `${time.getHours()}:${time.getMinutes()} hs`;
+    let messageHour = document.createElement('span');
+
+    messageHour.innerHTML = `${time.getHours()}:${time.getMinutes()}`;
+
+    return messageHour;
+}
+
+function createElements() {
+    let li = document.createElement("li");
+    let div = document.createElement('div');
+    let h3 = document.createElement("h6");
+    let p = document.createElement("p");
+    let hour = currentTime();
+
+    li.appendChild(hour);
+
+    return [li, div, h3, p];
 }
 
 connection.on("ReceiveMessage", function (user, message) {
-    let msg = message.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-    let encodedMsg = `${currentTime()} ${user}: ${msg}`;
-    let li = document.createElement("li");
-    li.textContent = encodedMsg;
-    document.getElementById("messagesList").appendChild(li);
+    let msg = message //.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    let nodes = createElements();
+
+    nodes[2].textContent = user;
+    nodes[3].textContent = msg;
+
+    nodes[1].appendChild(nodes[2]);
+    nodes[1].appendChild(nodes[3]);
+    nodes[0].appendChild(nodes[1]);
+
+    document.getElementById("messagesList").appendChild(nodes[0]);
     scrollToBottom();
 });
 
