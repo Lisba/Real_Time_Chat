@@ -1,8 +1,6 @@
 C:\Users\usuario\Documents\personals_projects\SignalRChat\SignalRChat\bin\Release\netcoreapp3.1\appsettings.Development.json
 C:\Users\usuario\Documents\personals_projects\SignalRChat\SignalRChat\bin\Release\netcoreapp3.1\appsettings.json
 C:\Users\usuario\Documents\personals_projects\SignalRChat\SignalRChat\bin\Release\netcoreapp3.1\libman.json
-C:\Users\usuario\Documents\personals_projects\SignalRChat\SignalRChat\bin\Release\netcoreapp3.1\Properties\launchSettings.json
-C:\Users\usuario\Documents\personals_projects\SignalRChat\SignalRChat\bin\Release\netcoreapp3.1\Properties\ServiceDependencies\SignalRChatLisbaldy - Web Deploy\profile.arm.json
 C:\Users\usuario\Documents\personals_projects\SignalRChat\SignalRChat\bin\Release\netcoreapp3.1\SignalRChat.exe
 C:\Users\usuario\Documents\personals_projects\SignalRChat\SignalRChat\bin\Release\netcoreapp3.1\SignalRChat.deps.json
 C:\Users\usuario\Documents\personals_projects\SignalRChat\SignalRChat\bin\Release\netcoreapp3.1\SignalRChat.runtimeconfig.json
@@ -36,3 +34,4 @@ C:\Users\usuario\Documents\personals_projects\SignalRChat\SignalRChat\obj\Releas
 C:\Users\usuario\Documents\personals_projects\SignalRChat\SignalRChat\obj\Release\netcoreapp3.1\SignalRChat.genruntimeconfig.cache
 C:\Users\usuario\Documents\personals_projects\SignalRChat\SignalRChat\obj\Release\netcoreapp3.1\SignalRChat.csproj.CopyComplete
 C:\Users\usuario\Documents\personals_projects\SignalRChat\SignalRChat\obj\Release\netcoreapp3.1\SignalRChat.csprojAssemblyReference.cache
+C:\Users\usuario\Documents\personals_projects\SignalRChat\SignalRChat\obj\Release\netcoreapp3.1\scopedcss\bundle\SignalRChat.styles.css
